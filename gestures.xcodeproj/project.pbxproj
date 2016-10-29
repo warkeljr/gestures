@@ -503,6 +503,7 @@
 				01F46E831DBCB73200893E47 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		01F46E841DBCB73200893E47 /* Build configuration list for PBXNativeTarget "gesturesTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +512,7 @@
 				01F46E861DBCB73200893E47 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		01F46E871DBCB73200893E47 /* Build configuration list for PBXNativeTarget "gesturesUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +521,7 @@
 				01F46E891DBCB73200893E47 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
