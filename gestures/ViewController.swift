@@ -12,8 +12,19 @@ class ViewController: UIViewController {
     
     
     @IBOutlet weak var tapView: UIView!
+    @IBOutlet weak var dragView: UIView!
+    @IBOutlet weak var rotateView: UIView!
+    @IBOutlet weak var pinchView: UIView!
+    @IBOutlet weak var longPressView: UIView!
+    @IBOutlet weak var swipeView: UIView!
+    
     
     var tapRec = UITapGestureRecognizer()
+    var dragRec = UIPanGestureRecognizer()
+    var rotateRec = UIRotationGestureRecognizer()
+    var pinchRec = UIPinchGestureRecognizer()
+    var longPressRec =  UILongPressGestureRecognizer()
+    var swipeRec = UISwipeGestureRecognizer()
     
     
     override func viewDidLoad() {
@@ -25,6 +36,7 @@ class ViewController: UIViewController {
         tapRec.addTarget(self, action: #selector(ViewController.TappedView))
         tapView.isUserInteractionEnabled = true
         tapView.addGestureRecognizer(tapRec)
+        
         tapViewAnimate()
         
     }
