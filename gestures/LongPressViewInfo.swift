@@ -1,5 +1,5 @@
 //
-//  TapViewInfo.swift
+//  LongPressViewInfo.swift
 //  gestures
 //
 //  Created by W.S. van Arkel jr. on 29-10-16.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class TapViewInfo: UIViewController {
+class LongPressViewInfo: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,8 +22,6 @@ class TapViewInfo: UIViewController {
     }
     
 
-    }
-
     /*
     // MARK: - Navigation
 
@@ -34,4 +32,4 @@ class TapViewInfo: UIViewController {
     }
     */
 
-
+}

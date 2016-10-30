@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		01733E951DC4D3910093B6FF /* TapViewInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01733E941DC4D3910093B6FF /* TapViewInfo.swift */; };
+		01733E971DC5121B0093B6FF /* DragViewInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01733E961DC5121B0093B6FF /* DragViewInfo.swift */; };
+		01733E991DC512310093B6FF /* RotateViewInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01733E981DC512310093B6FF /* RotateViewInfo.swift */; };
+		01733EA01DC512990093B6FF /* SwipeViewInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01733E9F1DC512990093B6FF /* SwipeViewInfo.swift */; };
+		01733EA21DC512AF0093B6FF /* LongPressViewInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01733EA11DC512AF0093B6FF /* LongPressViewInfo.swift */; };
+		01733EA41DC512D70093B6FF /* PinchViewInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01733EA31DC512D70093B6FF /* PinchViewInfo.swift */; };
 		01F46E5D1DBCB73100893E47 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F46E5C1DBCB73100893E47 /* AppDelegate.swift */; };
 		01F46E5F1DBCB73100893E47 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F46E5E1DBCB73100893E47 /* ViewController.swift */; };
 		01F46E621DBCB73100893E47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01F46E601DBCB73100893E47 /* Main.storyboard */; };
@@ -36,6 +41,11 @@
 
 /* Begin PBXFileReference section */
 		01733E941DC4D3910093B6FF /* TapViewInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TapViewInfo.swift; sourceTree = "<group>"; };
+		01733E961DC5121B0093B6FF /* DragViewInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DragViewInfo.swift; path = ../DragViewInfo.swift; sourceTree = "<group>"; };
+		01733E981DC512310093B6FF /* RotateViewInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RotateViewInfo.swift; sourceTree = "<group>"; };
+		01733E9F1DC512990093B6FF /* SwipeViewInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeViewInfo.swift; sourceTree = "<group>"; };
+		01733EA11DC512AF0093B6FF /* LongPressViewInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LongPressViewInfo.swift; sourceTree = "<group>"; };
+		01733EA31DC512D70093B6FF /* PinchViewInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinchViewInfo.swift; sourceTree = "<group>"; };
 		01F46E591DBCB73100893E47 /* gestures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gestures.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01F46E5C1DBCB73100893E47 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		01F46E5E1DBCB73100893E47 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -76,6 +86,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		01733E9A1DC5123C0093B6FF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		01733E9B1DC512490093B6FF /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		01733E9C1DC512520093B6FF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		01733E9D1DC5125E0093B6FF /* Uitil */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Uitil;
+			sourceTree = "<group>";
+		};
+		01733E9E1DC512740093B6FF /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Animations;
+			sourceTree = "<group>";
+		};
 		01F46E501DBCB73100893E47 = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +144,11 @@
 		01F46E5B1DBCB73100893E47 /* gestures */ = {
 			isa = PBXGroup;
 			children = (
+				01733E9E1DC512740093B6FF /* Animations */,
+				01733E9D1DC5125E0093B6FF /* Uitil */,
+				01733E9C1DC512520093B6FF /* Model */,
+				01733E9B1DC512490093B6FF /* View */,
+				01733E9A1DC5123C0093B6FF /* Controller */,
 				01F46E5C1DBCB73100893E47 /* AppDelegate.swift */,
 				01F46E5E1DBCB73100893E47 /* ViewController.swift */,
 				01F46E601DBCB73100893E47 /* Main.storyboard */,
@@ -106,6 +156,11 @@
 				01F46E651DBCB73100893E47 /* LaunchScreen.storyboard */,
 				01F46E681DBCB73100893E47 /* Info.plist */,
 				01733E941DC4D3910093B6FF /* TapViewInfo.swift */,
+				01733E961DC5121B0093B6FF /* DragViewInfo.swift */,
+				01733E981DC512310093B6FF /* RotateViewInfo.swift */,
+				01733E9F1DC512990093B6FF /* SwipeViewInfo.swift */,
+				01733EA11DC512AF0093B6FF /* LongPressViewInfo.swift */,
+				01733EA31DC512D70093B6FF /* PinchViewInfo.swift */,
 			);
 			path = gestures;
 			sourceTree = "<group>";
@@ -263,8 +318,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				01733E951DC4D3910093B6FF /* TapViewInfo.swift in Sources */,
+				01733EA01DC512990093B6FF /* SwipeViewInfo.swift in Sources */,
+				01733E991DC512310093B6FF /* RotateViewInfo.swift in Sources */,
 				01F46E5F1DBCB73100893E47 /* ViewController.swift in Sources */,
+				01733E971DC5121B0093B6FF /* DragViewInfo.swift in Sources */,
 				01F46E5D1DBCB73100893E47 /* AppDelegate.swift in Sources */,
+				01733EA21DC512AF0093B6FF /* LongPressViewInfo.swift in Sources */,
+				01733EA41DC512D70093B6FF /* PinchViewInfo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

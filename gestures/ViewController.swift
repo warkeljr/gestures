@@ -30,6 +30,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        tapView.layer.cornerRadius = 10.0
+        
         tapView.transform = CGAffineTransform(scaleX: 1.3, y: 1.3)
         tapView.alpha = 0.0
         
@@ -48,6 +50,9 @@ class ViewController: UIViewController {
     
     func TappedView() {
         
+        
+        //self.swipeView.isHidden = true
+        
         tapViewCorners()
         
         let tapAllert = UIAlertController(title: "Hallo Roosje", message: "Leuk dat je op me gedrukt hebt ", preferredStyle: UIAlertControllerStyle.alert)
@@ -62,7 +67,9 @@ class ViewController: UIViewController {
             self.tapView.transform = self.tapView.transform.rotated(by: CGFloat (M_PI))
             self.tapView.backgroundColor = UIColor.red
             self.tapView.transform = self.tapView.transform.rotated(by: CGFloat (-M_PI))
+
             }, completion: nil)
+        
   
     }
     
