@@ -50,9 +50,6 @@ class ViewController: UIViewController {
     
     func TappedView() {
         
-        
-        //self.swipeView.isHidden = true
-        
         tapViewCorners()
         
         let tapAllert = UIAlertController(title: "Hallo Roosje", message: "Leuk dat je op me gedrukt hebt ", preferredStyle: UIAlertControllerStyle.alert)
